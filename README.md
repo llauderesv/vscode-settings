@@ -1,2 +1,3 @@
 # vscode-settings
-My custom visual studio code settings
+
+My own customize Visual Studio Code Settings

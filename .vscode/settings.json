@@ -5,10 +5,12 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontWeight": "300",
+  "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.fontSize": 13,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
+  "editor.lightbulb.enabled": false,
 
   // Work Bench Settings
   "workbench.tips.enabled": false,
@@ -38,10 +40,10 @@
   "eslint.workingDirectories": [
     { "directory": "./", "changeProcessCWD": true }
   ],
-  "eslint.alwaysShowStatus": true,
+  "eslint.alwaysShowStatus": true
 
-  // TFS
+  // If working in Visual Studio Team Foundation Server
   // "tfvc.proxy": "http://phmnltmg001f.apac.sykes.com:8080/proxy",
-  "tfvc.restrictWorkspace": true,
-  "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe"
+  // "tfvc.restrictWorkspace": true,
+  // "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe"
 }

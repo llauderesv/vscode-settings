@@ -1,0 +1,18 @@
+{
+  // Apply this settings only in src folder
+  "include": ["src/**/*"],
+  /* This config allow intellisense worked
+     in custom define aliases import in webpack to resolved 
+     long relative paths in importing files */
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./src",
+    // This will allow intellisense to work with webpack aliases
+    "paths": {
+      // "components/*": ["components/*"],
+    }
+  }
+}
