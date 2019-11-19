@@ -42,7 +42,7 @@
   ],
   "eslint.alwaysShowStatus": true
 
-  // If working in Visual Studio Team Foundation Server
+  // If working in VSTS
   // "tfvc.proxy": "http://phmnltmg001f.apac.sykes.com:8080/proxy",
   // "tfvc.restrictWorkspace": true,
   // "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe"
