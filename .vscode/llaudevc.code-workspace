@@ -6,7 +6,7 @@
   ],
   // This settings will all apply in workspace folder
   "settings": {
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
 
     // Editor Settings
     "editor.fontFamily": "Fira Code",
