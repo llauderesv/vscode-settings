@@ -7,10 +7,20 @@
   "editor.fontWeight": "300",
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
-  "editor.fontSize": 13,
+  "editor.fontSize": 11,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": true,
   "editor.lightbulb.enabled": false,
+
+  // disable editor formatting, so eslint can handle it
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  // available through eslint plugin in vscode
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 
   // Work Bench Settings
   "workbench.tips.enabled": false,
