@@ -1,8 +1,7 @@
 {
   "folders": [
     {
-      // path directory of your workspace
-      "path": "C:\\Users\\llaudevc\\Documents\\SykesPHMobile"
+      "path": "/Users/vincentllauderes/Documents/sykesph-mobile-react-native"
     }
   ],
   // This settings will all apply in workspace folder
@@ -10,9 +9,9 @@
     "breadcrumbs.enabled": false,
 
     // Editor Settings
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "IBM Plex Mono",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "300",
+    "editor.fontWeight": "400",
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.fontSize": 11,
@@ -24,7 +23,7 @@
     "workbench.tips.enabled": false,
     "workbench.tree.indent": 10,
     "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+    "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.tree.renderIndentGuides": "none",
