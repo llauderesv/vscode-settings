@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "path": "/Users/vincentllauderes/Documents/sykesph-mobile-react-native"
+      "path": "/Users/vincentllauderes/Documents/HelloRN"
     }
   ],
   // This settings will all apply in workspace folder
@@ -23,7 +23,7 @@
     "workbench.tips.enabled": false,
     "workbench.tree.indent": 10,
     "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.tree.renderIndentGuides": "none",
@@ -55,7 +55,8 @@
     // let editor format using prettier for all other files
     // disable editor formatting, so eslint can handle it
     "[javascript]": {
-      "editor.formatOnSave": false
+      "editor.formatOnSave": false,
+      "editor.autoClosingQuotes": "always"
     },
     // available through eslint plugin in vscode
     "editor.codeActionsOnSave": {
