@@ -6,9 +6,6 @@
   ],
   // This settings will all apply in workspace folder
   "settings": {
-    "breadcrumbs.enabled": false,
-
-    // Editor Settings
     "editor.fontFamily": "IBM Plex Mono",
     "editor.fontLigatures": true,
     "editor.fontWeight": "400",
@@ -18,17 +15,19 @@
     "editor.wordWrap": "on",
     "editor.minimap.enabled": true,
     "editor.lightbulb.enabled": false,
+    "editor.formatOnSave": true,
 
-    // Work Bench Settings
-    "workbench.tips.enabled": false,
+    // Workbench settings
     "workbench.tree.indent": 10,
-    "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.closeOnFileDelete": true,
     "workbench.list.openMode": "singleClick",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.limit.value": 2,
 
     // Prettier
     "prettier.semi": true,
@@ -55,12 +54,17 @@
     // let editor format using prettier for all other files
     // disable editor formatting, so eslint can handle it
     "[javascript]": {
-      "editor.formatOnSave": false
+      "editor.formatOnSave": false,
+      "editor.autoClosingQuotes": "always"
     },
     // available through eslint plugin in vscode
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
-    }
+    },
+
+    "zenMode.hideTabs": false,
+    "zenMode.hideLineNumbers": false,
+    "breadcrumbs.enabled": false
     // If working in VSTS
     // Kindly use this configuration
     // "tfvc.proxy": "http://phmnltmg001f.apac.sykes.com:8080/proxy",
