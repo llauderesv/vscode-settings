@@ -24,10 +24,11 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.list.openMode": "singleClick",
-    "workbench.statusBar.visible": false,
-    "workbench.tips.enabled": false,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.limit.value": 2,
+    "workbench.activityBar.visible": false,
+
+    // "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 
     // Prettier
     "prettier.semi": true,
@@ -61,10 +62,12 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
-
-    "zenMode.hideTabs": false,
     "zenMode.hideLineNumbers": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "workbench.tips.enabled": false,
+    "workbench.statusBar.visible": false,
+    "zenMode.hideTabs": false
+
     // If working in VSTS
     // Kindly use this configuration
     // "tfvc.proxy": "http://phmnltmg001f.apac.sykes.com:8080/proxy",
