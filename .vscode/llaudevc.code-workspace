@@ -1,7 +1,8 @@
 {
   "folders": [
     {
-      "path": "/Users/vincentllauderes/Documents/HelloRN"
+      "path": "/Users/vincentllauderes/Documents/HelloRN",
+      "path": "/Users/vincentllauderes/Documents/MessengerClone"
     }
   ],
   // This settings will all apply in workspace folder
@@ -28,7 +29,8 @@
     "workbench.tips.enabled": false,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.limit.value": 2,
-    
+    "workbench.activityBar.visible": false,
+
     // Prettier
     "prettier.semi": true,
     "prettier.arrowParens": "avoid",
@@ -61,7 +63,7 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
-    
+
     "zenMode.hideTabs": false,
     "zenMode.hideLineNumbers": false,
     "breadcrumbs.enabled": false
