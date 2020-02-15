@@ -25,12 +25,15 @@
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.list.openMode": "singleClick",
-    "workbench.statusBar.visible": false,
-    "workbench.tips.enabled": false,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.limit.value": 2,
     "workbench.activityBar.visible": false,
 
+<<<<<<< HEAD
+=======
+    // "terminal.integrated.automationShell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+>>>>>>> 94cc3684c9b4f45281d0ed4eea34d6444250ebf5
     // Prettier
     "prettier.semi": true,
     "prettier.arrowParens": "avoid",
@@ -63,10 +66,17 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
+<<<<<<< HEAD
 
     "zenMode.hideTabs": false,
+=======
+>>>>>>> 94cc3684c9b4f45281d0ed4eea34d6444250ebf5
     "zenMode.hideLineNumbers": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "workbench.tips.enabled": false,
+    "workbench.statusBar.visible": false,
+    "zenMode.hideTabs": false
+
     // If working in VSTS
     // Kindly use this configuration
     // "tfvc.proxy": "http://phmnltmg001f.apac.sykes.com:8080/proxy",
