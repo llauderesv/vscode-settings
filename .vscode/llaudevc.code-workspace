@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "path": "/Users/vincentllauderes/Documents/MessengerClone"
+      "path": "/Users/vincentllauderes/Desktop/redux-saga-basics"
     }
   ],
   // This settings will all apply in workspace folder
@@ -37,6 +37,7 @@
     "prettier.endOfLine": "crlf",
     "prettier.trailingComma": "es5",
     "prettier.printWidth": 80,
+    "prettier.bracketSpacing": false,
 
     // Eslint
     "eslint.enable": true,
