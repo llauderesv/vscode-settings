@@ -1,7 +1,12 @@
 {
   "folders": [
     {
-      "path": "/Users/vincentllauderes/Desktop/redux-saga-basics"
+      "name": "VS Code Settings",
+      "path": "/Users/llaudevc/Documents/vscode-settings"
+    },
+    {
+      "name": "Sykes PH Mobile(React Native)",
+      "path": "/Users/llaudevc/Documents/sykes-phmobile-react-native"
     }
   ],
   // This settings will all apply in workspace folder
@@ -16,6 +21,8 @@
     "editor.minimap.enabled": true,
     "editor.lightbulb.enabled": false,
     "editor.formatOnSave": true,
+    "editor.highlightActiveIndentGuide": false,
+    "editor.renderIndentGuides": false,
 
     // Workbench settings
     "workbench.tree.indent": 10,
@@ -26,7 +33,7 @@
     "workbench.list.openMode": "singleClick",
     "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.limit.value": 2,
-    "workbench.activityBar.visible": false,
+    // "workbench.activityBar.visible": false,
 
     // Prettier
     "prettier.semi": true,
@@ -45,7 +52,7 @@
       "enable": true
     },
     "eslint.workingDirectories": [
-      { "directory": "./", "changeProcessCWD": true }
+      {"directory": "./", "changeProcessCWD": true}
     ],
     "eslint.alwaysShowStatus": true,
 
@@ -72,5 +79,22 @@
     // "tfvc.proxy": "http://phmnltmg001f.apac.sykes.com:8080/proxy",
     // "tfvc.restrictWorkspace": true,
     // "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.vs-keybindings",
+      "ms-vsts.team",
+      "dbaeumer.vscode-eslint",
+      "donjayamanne.githistory",
+      "orta.vscode-jest",
+      "andys8.jest-snippets",
+      "pkief.material-icon-theme",
+      "esbenp.prettier-vscode",
+      "ms-mssql.mssql",
+      "naumovs.theme-oceanicne",
+      "wayou.vscode-todo-highligh",
+      "ms-vscode.vscode-typescript-tslint-plugin",
+      "jpoissonnier.vscode-styled-components"
+    ]
   }
 }
