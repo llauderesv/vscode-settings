@@ -1,11 +1,11 @@
 {
   "folders": [
     {
-      "name": "VS Code Settings",
+      "name": "vs-code-settings",
       "path": "/Users/llaudevc/Documents/vscode-settings"
     },
     {
-      "name": "Sykes PH Mobile(React Native)",
+      "name": "sykes-phmobile-react-native",
       "path": "/Users/llaudevc/Documents/sykes-phmobile-react-native"
     }
   ],
@@ -91,8 +91,8 @@
       "pkief.material-icon-theme",
       "esbenp.prettier-vscode",
       "ms-mssql.mssql",
-      "naumovs.theme-oceanicne",
-      "wayou.vscode-todo-highligh",
+      "naumovs.theme-oceanicnext",
+      "wayou.vscode-todo-highlight",
       "ms-vscode.vscode-typescript-tslint-plugin",
       "jpoissonnier.vscode-styled-components"
     ]
