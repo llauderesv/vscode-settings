@@ -2,11 +2,10 @@
   "folders": [
     {
       "name": "vs-code-settings",
-      "path": "/Users/llaudevc/Documents/vscode-settings"
+      "path": "/Users/vincentllauderes/Documents/vscode-settings"
     },
     {
-      "name": "sykes-phmobile-react-native",
-      "path": "/Users/llaudevc/Documents/sykes-phmobile-react-native"
+      "path": "/Users/vincentllauderes/Desktop/sykes-phmobile-react-native"
     }
   ],
   // This settings will all apply in workspace folder
@@ -33,7 +32,8 @@
     "workbench.list.openMode": "singleClick",
     "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.limit.value": 2,
-    // "workbench.activityBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.statusBar.visible": false,
 
     // Prettier
     "prettier.semi": true,
@@ -69,10 +69,8 @@
       "source.fixAll.eslint": true
     },
     "zenMode.hideLineNumbers": false,
-    "breadcrumbs.enabled": false,
-    "workbench.tips.enabled": false,
-    "workbench.statusBar.visible": false,
-    "zenMode.hideTabs": false
+    "zenMode.hideTabs": false,
+    "breadcrumbs.enabled": false
 
     // If working in VSTS
     // Kindly use this configuration
@@ -80,6 +78,7 @@
     // "tfvc.restrictWorkspace": true,
     // "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe"
   },
+  // Recommended extensions
   "extensions": {
     "recommendations": [
       "ms-vscode.vs-keybindings",
@@ -94,7 +93,12 @@
       "naumovs.theme-oceanicnext",
       "wayou.vscode-todo-highlight",
       "ms-vscode.vscode-typescript-tslint-plugin",
-      "jpoissonnier.vscode-styled-components"
+      "jpoissonnier.vscode-styled-components",
+      "dsznajder.es7-react-js-snippets",
+      "ritwickdey.liveserver",
+      "jmrog.vscode-nuget-package-manager",
+      "msjsdiag.vscode-react-native",
+      "dzannotti.vscode-babel-coloring"
     ]
   }
 }
