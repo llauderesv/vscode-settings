@@ -1,21 +1,29 @@
 {
   "folders": [
     {
-      "name": "vs-code-settings",
       "path": "/Users/vincentllauderes/Documents/vscode-settings"
     },
     {
-      "path": "/Users/vincentllauderes/Desktop/sykes-phmobile-react-native"
+      "path": "/Users/vincentllauderes/Desktop/redux-saga-basics"
+    },
+    {
+      "path": "/Users/vincentllauderes/Desktop/flatlist"
+    },
+    {
+      "path": "/Users/vincentllauderes/Documents/sykes-phmobile-react-native"
+    },
+    {
+      "path": "/Users/vincentllauderes/Desktop/redux-tutorial"
     }
   ],
-  // This settings will all apply in workspace folder
+  // This settings will applicable only in your workspace
   "settings": {
     "editor.fontFamily": "IBM Plex Mono",
     "editor.fontLigatures": true,
     "editor.fontWeight": "400",
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
-    "editor.fontSize": 11,
+    "editor.fontSize": 13,
     "editor.wordWrap": "on",
     "editor.minimap.enabled": true,
     "editor.lightbulb.enabled": false,
@@ -97,8 +105,7 @@
       "dsznajder.es7-react-js-snippets",
       "ritwickdey.liveserver",
       "jmrog.vscode-nuget-package-manager",
-      "msjsdiag.vscode-react-native",
-      "dzannotti.vscode-babel-coloring"
+      "msjsdiag.vscode-react-native"
     ]
   }
 }
