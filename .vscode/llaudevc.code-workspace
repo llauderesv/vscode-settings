@@ -1,19 +1,7 @@
 {
   "folders": [
     {
-      "path": "/Users/vincentllauderes/Documents/vscode-settings"
-    },
-    {
-      "path": "/Users/vincentllauderes/Desktop/redux-saga-basics"
-    },
-    {
-      "path": "/Users/vincentllauderes/Desktop/flatlist"
-    },
-    {
-      "path": "/Users/vincentllauderes/Documents/sykes-phmobile-react-native"
-    },
-    {
-      "path": "/Users/vincentllauderes/Desktop/redux-tutorial"
+      "path": "/Users/vincentllauderes/Desktop/sykes-phmobile-react-native"
     }
   ],
   // This settings will applicable only in your workspace
@@ -78,7 +66,8 @@
     },
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "javascript.validate.enable": false,
 
     // If working in VSTS
     // Kindly use this configuration
@@ -105,7 +94,8 @@
       "dsznajder.es7-react-js-snippets",
       "ritwickdey.liveserver",
       "jmrog.vscode-nuget-package-manager",
-      "msjsdiag.vscode-react-native"
+      "msjsdiag.vscode-react-native",
+      "flowtype.flow-for-vscode"
     ]
   }
 }
