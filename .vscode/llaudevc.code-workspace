@@ -30,6 +30,9 @@
     "workbench.editor.limit.value": 2,
     "workbench.tips.enabled": false,
     "workbench.statusBar.visible": false,
+    "workbench.editor.showIcons": false,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.restoreViewState": true,
 
     // Prettier
     "prettier.semi": true,
@@ -48,7 +51,7 @@
       "enable": true
     },
     "eslint.workingDirectories": [
-      {"directory": "./", "changeProcessCWD": true}
+      { "directory": "./", "changeProcessCWD": true }
     ],
     "eslint.alwaysShowStatus": true,
 
@@ -66,8 +69,8 @@
     },
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
-    "breadcrumbs.enabled": false,
-    "javascript.validate.enable": false,
+    "breadcrumbs.enabled": false
+    // "javascript.validate.enable": false,
 
     // If working in VSTS
     // Kindly use this configuration
@@ -75,7 +78,7 @@
     // "tfvc.restrictWorkspace": true,
     // "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe"
   },
-  // Recommended extensions
+  // Recommended vscode extensions
   "extensions": {
     "recommendations": [
       "ms-vscode.vs-keybindings",
