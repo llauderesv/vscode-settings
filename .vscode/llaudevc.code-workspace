@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "path": "/Users/vincentllauderes/Desktop/sykes-phmobile-react-native"
+      "path": "/Users/vincentllauderes/Desktop/SYKES.ISAPAC.PhMobile_v2"
     }
   ],
   // This settings will applicable only in your workspace
@@ -11,27 +11,26 @@
     "editor.fontWeight": "400",
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
-    "editor.fontSize": 13,
+    "editor.fontSize": 12,
     "editor.wordWrap": "on",
     "editor.minimap.enabled": true,
     "editor.lightbulb.enabled": false,
-    "editor.formatOnSave": true,
-    "editor.highlightActiveIndentGuide": false,
+    // "editor.formatOnSave": true,
+    "editor.highlightActiveIndentGuide": true,
     "editor.renderIndentGuides": false,
 
     // Workbench settings
     "workbench.tree.indent": 10,
     "workbench.colorTheme": "Oceanic Next (dimmed bg)",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vs-seti",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.closeOnFileDelete": true,
     "workbench.list.openMode": "singleClick",
     "workbench.tree.renderIndentGuides": "none",
     "workbench.editor.limit.value": 2,
     "workbench.tips.enabled": false,
-    "workbench.statusBar.visible": false,
     "workbench.editor.showIcons": false,
-    "workbench.editor.tabSizing": "shrink",
+    "workbench.statusBar.visible": true,
     "workbench.editor.restoreViewState": true,
 
     // Prettier
@@ -45,16 +44,6 @@
     "prettier.printWidth": 80,
     "prettier.bracketSpacing": false,
 
-    // Eslint
-    "eslint.enable": true,
-    "eslint.codeAction.showDocumentation": {
-      "enable": true
-    },
-    "eslint.workingDirectories": [
-      { "directory": "./", "changeProcessCWD": true }
-    ],
-    "eslint.alwaysShowStatus": true,
-
     // other settings
     // formatting using eslint
     // let editor format using prettier for all other files
@@ -63,15 +52,60 @@
       "editor.formatOnSave": false,
       "editor.autoClosingQuotes": "always"
     },
+    "[typescript]": {
+      "editor.formatOnSave": true
+    },
+    // Format on save for linting rules
     // available through eslint plugin in vscode
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+      "source.fixAll.eslint": true,
+      "source.fixAll.tslint": true
     },
+
+    // Eslint
+    "eslint.enable": false,
+    "eslint.codeAction.showDocumentation": {
+      "enable": true
+    },
+    "eslint.workingDirectories": [
+      { "directory": "./", "changeProcessCWD": true }
+    ],
+    "eslint.alwaysShowStatus": true,
+
+    // tslint
+    "tslint.enable": true,
+    "tslint.autoFixOnSave": true,
+    "tslint.exclude": ["node_modules/*/**"],
+
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": true,
     // "javascript.validate.enable": false,
 
+    // Todo highlight
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+      {
+        "text": "TODO",
+        "backgroundColor": "green",
+        "color": "white"
+      },
+      {
+        "text": "DEPRECATED",
+        "backgroundColor": "orange",
+        "color": "white"
+      },
+      {
+        "text": "BUG",
+        "backgroundColor": "red",
+        "color": "white"
+      }
+    ],
+
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.annotations.changes": true,
+    "gitlens.views.repositories.avatars": true
+    // "tslint.alwaysShowRuleFailuresAsWarnings": false
     // If working in VSTS
     // Kindly use this configuration
     // "tfvc.proxy": "http://phmnltmg001f.apac.sykes.com:8080/proxy",
@@ -98,7 +132,7 @@
       "ritwickdey.liveserver",
       "jmrog.vscode-nuget-package-manager",
       "msjsdiag.vscode-react-native",
-      "flowtype.flow-for-vscode"
+      "eamodio.gitlens"
     ]
   }
 }
