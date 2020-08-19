@@ -1,17 +1,15 @@
 {
   "folders": [
-    {
-      "path": "/Users/vincentllauderes/Desktop/SYKES.ISAPAC.PhMobile_v2"
-    }
+    
   ],
   // This settings will applicable only in your workspace
   "settings": {
     "editor.fontFamily": "IBM Plex Mono",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "400",
+    // "editor.fontWeight": "400",
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
-    "editor.fontSize": 12,
+    "editor.fontSize": 11,
     "editor.wordWrap": "on",
     "editor.minimap.enabled": true,
     "editor.lightbulb.enabled": false,
@@ -21,7 +19,7 @@
 
     // Workbench settings
     "workbench.tree.indent": 10,
-    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+    "workbench.colorTheme": "Oceanic Next Sublime",
     "workbench.iconTheme": "vs-seti",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.closeOnFileDelete": true,
@@ -55,6 +53,7 @@
     "[typescript]": {
       "editor.formatOnSave": true
     },
+
     // Format on save for linting rules
     // available through eslint plugin in vscode
     "editor.codeActionsOnSave": {
@@ -80,23 +79,23 @@
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
     "breadcrumbs.enabled": true,
-    // "javascript.validate.enable": false,
+    "javascript.validate.enable": true,
 
     // Todo highlight
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [
       {
-        "text": "TODO",
+        "text": "TODO:",
         "backgroundColor": "green",
         "color": "white"
       },
       {
-        "text": "DEPRECATED",
+        "text": "DEPRECATED:",
         "backgroundColor": "orange",
         "color": "white"
       },
       {
-        "text": "BUG",
+        "text": "BUG:",
         "backgroundColor": "red",
         "color": "white"
       }
@@ -104,13 +103,22 @@
 
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.annotations.changes": true,
-    "gitlens.views.repositories.avatars": true
+    "gitlens.views.repositories.avatars": true,
     // "tslint.alwaysShowRuleFailuresAsWarnings": false
     // If working in VSTS
     // Kindly use this configuration
     // "tfvc.proxy": "http://phmnltmg001f.apac.sykes.com:8080/proxy",
     // "tfvc.restrictWorkspace": true,
     // "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe"
+
+    // Terminal
+    "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
+    "terminal.integrated.fontSize": 12,
+    "breadcrumbs.filePath": "off",
+    "breadcrumbs.icons": false,
+    "cSpell.words": [
+      "accu"
+    ]
   },
   // Recommended vscode extensions
   "extensions": {
