@@ -1,6 +1,8 @@
 {
   "folders": [
-    
+    {
+      "path": "/Users/vincentllauderes/Desktop/sykes-phmobile-app"
+    }
   ],
   // This settings will applicable only in your workspace
   "settings": {
@@ -9,7 +11,6 @@
     // "editor.fontWeight": "400",
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
-    "editor.fontSize": 11,
     "editor.wordWrap": "on",
     "editor.minimap.enabled": true,
     "editor.lightbulb.enabled": false,
@@ -38,7 +39,7 @@
     "prettier.singleQuote": true,
     "prettier.tabWidth": 2,
     "prettier.endOfLine": "crlf",
-    "prettier.trailingComma": "es5",
+    "prettier.trailingComma": "all",
     "prettier.printWidth": 80,
     "prettier.bracketSpacing": false,
 
@@ -116,9 +117,7 @@
     "terminal.integrated.fontSize": 12,
     "breadcrumbs.filePath": "off",
     "breadcrumbs.icons": false,
-    "cSpell.words": [
-      "accu"
-    ]
+    "cSpell.words": ["accu"]
   },
   // Recommended vscode extensions
   "extensions": {
@@ -129,10 +128,9 @@
       "donjayamanne.githistory",
       "orta.vscode-jest",
       "andys8.jest-snippets",
-      "pkief.material-icon-theme",
       "esbenp.prettier-vscode",
       "ms-mssql.mssql",
-      "naumovs.theme-oceanicnext",
+      "aytee17.vscode-oceanic-next-sublime",
       "wayou.vscode-todo-highlight",
       "ms-vscode.vscode-typescript-tslint-plugin",
       "jpoissonnier.vscode-styled-components",
